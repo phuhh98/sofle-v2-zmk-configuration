@@ -17,7 +17,10 @@ include:
     shield: sofle_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: sofle_left_simple_oled
   - board: nice_nano_v2
     shield: sofle_right
+    artifact: sofle_right_simple_oled
   - board: nice_nano_v2
     shield: settings_reset
+    artifact: zmk_reset
