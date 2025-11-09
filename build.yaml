@@ -21,11 +21,11 @@ include:
 
   - board: nice_nano_v2
     shield: sofle_right
-    artifact: sofle_right_simple_oled
+    artifact-name: sofle_right_simple_oled
 
   - board: nice_nano_v2
     shield: settings_reset
-    artifact: zmk_reset
+    artifact-name: zmk_reset
 
   - board: nice_nano_v2
     shield: sofle_left nice_oled
@@ -35,7 +35,7 @@ include:
 
   - board: nice_nano_v2
     shield: sofle_right nice_oled
-    artifact: sofle_right_nice_oled
+    artifact-name: sofle_right_nice_oled
     
   - board: nice_nano_v2
     shield: sofle_left nice_view_adapter dongle_display_view_pro_micro
