@@ -18,17 +18,27 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: sofle_left_simple_oled
+
   - board: nice_nano_v2
     shield: sofle_right
     artifact: sofle_right_simple_oled
+
   - board: nice_nano_v2
     shield: settings_reset
     artifact: zmk_reset
+
+  - board: nice_nano_v2
+    shield: sofle_left nice_oled
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: sofle_left_nice_oled
+
+  - board: nice_nano_v2
+    shield: sofle_right nice_oled
+    artifact: sofle_right_nice_oled
+    
   - board: nice_nano_v2
     shield: sofle_left nice_view_adapter dongle_display_view_pro_micro
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: sofle_left_nice_oled_dongle
-  - board: nice_nano_v2
-    shield: sofle_right nice_oled
-    artifact: sofle_right_nice_oled_gem
